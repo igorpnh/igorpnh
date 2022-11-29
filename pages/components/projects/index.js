@@ -81,7 +81,7 @@ const Projects = ({ data }) => {
                   gap="1rem"
                   justify="end"
                 >
-                  <Link href={item.html_url}>
+                  <Link target='_blank' href={item.html_url}>
                     <IconButton
                       bg="none"
                       _hover={{
@@ -93,7 +93,7 @@ const Projects = ({ data }) => {
                       as={AiFillGithub}
                     />
                   </Link>
-                  <Link href={item.homepage}>
+                  <Link target='_blank' href={item.homepage}>
                     <IconButton
                       bg="none"
                       _hover={{
