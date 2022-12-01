@@ -9,6 +9,9 @@ import {
   Link,
   IconButton,
   useMediaQuery,
+  Divider,
+  Container,
+  useColorModeValue,
 } from "@chakra-ui/react";
 import Navbar from "../navbar";
 import {
@@ -17,6 +20,9 @@ import {
   AiFillInstagram,
   AiOutlineWhatsApp,
 } from "react-icons/ai";
+import { Orbitron } from "@next/font/google";
+
+const orbitron = Orbitron({ weight: "400", subsets: ["latin"] });
 const Header = () => {
   const { colorMode } = useColorMode();
   const [isSmallerThan764] = useMediaQuery("(max-width: 764px)");
@@ -113,16 +119,19 @@ const Header = () => {
               src="https://thumbs2.imgbox.com/49/b3/07eInL3D_t.jpeg"
               alt="image host"
             />
-            <Heading
+            <Text
               bgGradient="linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.7) 77%, rgba(252,176,69,1) 100%)"
               bgClip="text"
+              fontSize="4xl"
+              className={orbitron.className}
             >
               Igor Pinheiro
-            </Heading>
-            <Text>FullStack Developer</Text>
+            </Text>
+            <Text>Programador FullStack</Text>
           </VStack>
         </Box>
       )}
+      <Divider bg={useColorModeValue("black", "white")} mt="2px" w="100%" />
     </>
   );
 };

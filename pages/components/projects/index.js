@@ -8,12 +8,17 @@ import {
   useColorModeValue,
   Flex,
   Center,
-  Stack,
+  useMediaQuery,
   IconButton,
   Link,
+  Container,
+  Divider
 } from "@chakra-ui/react";
 import { AiFillGithub } from "react-icons/ai";
 import { BiLinkExternal } from "react-icons/bi";
+import { Orbitron } from "@next/font/google";
+
+const orbitron = Orbitron({ weight: '400', subsets: ["latin"] });
 
 const Projects = ({ data }) => {
   const languageColor = (value) => {
@@ -26,12 +31,15 @@ const Projects = ({ data }) => {
     return "blue";
   };
 
+  const [isSmallerThan1000] = useMediaQuery("(max-width: 1100px)");
+
   return (
-    <Box id="projetos" h="100vh" textAlign="start">
-      <Heading mt="2rem" ml="5%">
+    <>
+    <Container pb={10} id="projetos" maxW='container.xl' textAlign="start">
+      <Heading pt='2rem' ml="5%">
         Projetos
       </Heading>
-      <SimpleGrid mt="4rem" px={4} columns={[1, 2, 3]} spacing={4}>
+      <SimpleGrid mt="2rem" px={4} columns={[1, 2, 3]} spacing={4}>
         {data ? (
           data.map((item) => (
             <Box
@@ -51,8 +59,10 @@ const Projects = ({ data }) => {
                 <Text
                   bgGradient="linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.7) 77%, rgba(252,176,69,1) 100%)"
                   bgClip="text"
-                  fontSize="lg"
-                  wrap="no-wrap"
+                  fontSize={isSmallerThan1000 ? 'sm' : 'lg'}
+                  whiteSpace="nowrap"
+                  overflow='hidden'
+                  className={orbitron.className}
                 >
                   {item.name[0].toUpperCase() + item.name.substring(1)}
                 </Text>
@@ -113,7 +123,9 @@ const Projects = ({ data }) => {
           <Text>Não foi possível encontrar nenhum repositório</Text>
         )}
       </SimpleGrid>
-    </Box>
+    </Container>
+    <Divider bg={useColorModeValue("black", "white")} mt="2px" w="100%" />
+    </>
   );
 };
 
