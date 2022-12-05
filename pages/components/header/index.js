@@ -53,7 +53,7 @@ const Header = () => {
             >
               Igor Pinheiro
             </Heading>
-            <Text>FullStack Developer</Text>
+            <Text>Programador FullStack</Text>
           </VStack>
           <HStack>
             <Link

@@ -104,6 +104,10 @@ const NAV_ITEMS = [
     href: "#projetos",
   },
   {
+    label: "Habilidades",
+    href: "#skills",
+  },
+  {
     label: "Contatos",
     href: "#contato",
   },
