@@ -9,13 +9,16 @@ import { TbBrandNextjs } from "react-icons/tb";
 import {
   Container,
   Heading,
-  SimpleGrid,
   Center,
   Text,
   Box,
-  Progress,
+  CircularProgress,
+  CircularProgressLabel,
   Divider,
   useColorModeValue,
+  VStack,
+  Flex,
+  useColorMode,
 } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 import { Orbitron } from "@next/font/google";
@@ -34,47 +37,42 @@ const Skills = () => {
 
   return (
     <>
-      <Container id="skills" h="100%" pb={20} pt={10} maxW="container.xl">
-        <Heading ml="5%">Habilidades</Heading>
-        <SimpleGrid
-          columns={{ base: 2, md: 5, lg: skills.length }}
-          spacing={5}
-          whiteSpace="nowrap"
-          pt={10}
-        >
+      <Container id="skills" align="center" m="0" h="100%" pb={20} pt={10}>
+        <Heading textAlign="center">Habilidades</Heading>
+        <VStack spacing={5} w="max-content" pt={10} align="left">
           {skills.map((item, i) => (
-            <motion.div whileHover={{ scale: 1.2 }} key={i}>
-              <Center
-                flexDirection="column"
-                rounded={"lg"}
-                boxShadow="rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px"
-                bg={useColorModeValue("gray.300", "gray.900")}
-                p={4}
-              >
-                <Box p={3} fontSize="30px">
-                  {item.icon}
-                </Box>
-                <Text
-                  bgGradient="linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.7) 77%, rgba(252,176,69,1) 100%)"
-                  bgClip="text"
-                  className={orbitron.className}
-                >
-                  {item.name}
-                </Text>
-                <Progress
-                  hasStripe
-                  w="100%"
-                  mt={3}
-                  colorScheme="gray"
-                  size="sm"
-                  value={item.progress}
-                />
-              </Center>
+            <motion.div whileHover={{ scale: 1.1 }} key={i}>
+              <Box>
+                <Flex align="center" gap="3rem" justify="space-between">
+                  <Flex align="center">
+                    <Box p={3} fontSize="30px">
+                      {item.icon}
+                    </Box>
+                    <Text
+                      bgGradient="linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.7) 77%, rgba(252,176,69,1) 100%)"
+                      bgClip="text"
+                      className={orbitron.className}
+                    >
+                      {item.name}
+                    </Text>
+                  </Flex>
+                  <CircularProgress
+                    size="4rem"
+                    value={item.progress}
+                    color={useColorModeValue("gray.300", "gray.500")}
+                    thickness="0.5rem"
+                    outline="none"
+                  >
+                    <CircularProgressLabel>
+                      {item.progress}%
+                    </CircularProgressLabel>
+                  </CircularProgress>
+                </Flex>
+              </Box>
             </motion.div>
           ))}
-        </SimpleGrid>
+        </VStack>
       </Container>
-      <Divider bg={useColorModeValue("black", "white")} mt="2px" w="100%" />
     </>
   );
 };

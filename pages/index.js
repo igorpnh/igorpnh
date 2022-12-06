@@ -1,3 +1,4 @@
+import AboutSkills from "./components/aboutSkills";
 import Header from "./components/header";
 import Projects from "./components/projects";
 import Skills from "./components/skills";
@@ -7,14 +8,22 @@ export default function Home({data}) {
   <>
   <Header/>
   <Projects data={data}/>
-  <Skills/>
+  <AboutSkills/>
   </>
   );
 }
 
 
-export async function getServerSideProps() {
-  const res = await fetch("https://api.github.com/users/igorpnh/repos");
+export async function getServerSideProps(context) {
+  
+  const limit = context.query.limit
+
+  const res = await fetch("https://api.github.com/users/igorpnh/repos", {
+    params: {
+      limit
+    }
+  });
+
   const data = await res.json();
 
   return {
