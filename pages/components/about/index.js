@@ -36,7 +36,7 @@ const About = () => {
               Baixe o CV
             </a>
           </Button>
-          <Link target='_blank' href='https://api.whatsapp.com/send?phone=5514998094777'>
+          <Link _hover={{ textDecoration: 'none' }} target='_blank' href='https://api.whatsapp.com/send?phone=5514998094777'>
             <Button variant="outline" colorScheme="whatsapp">
               Entre em contato
             </Button>
