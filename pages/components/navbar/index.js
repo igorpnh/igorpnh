@@ -104,11 +104,11 @@ const NAV_ITEMS = [
     href: "#projetos",
   },
   {
-    label: "Habilidades",
-    href: "#skills",
+    label: "Sobre",
+    href: "#about",
   },
   {
-    label: "Contatos",
-    href: "#contato",
+    label: "Habilidades",
+    href: "#skills",
   },
 ];

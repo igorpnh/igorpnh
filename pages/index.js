@@ -1,7 +1,7 @@
 import AboutSkills from "./components/aboutSkills";
+import SmallWithSocial from "./components/footer";
 import Header from "./components/header";
 import Projects from "./components/projects";
-import Skills from "./components/skills";
 
 export default function Home({data}) {
   return (
@@ -9,6 +9,7 @@ export default function Home({data}) {
   <Header/>
   <Projects data={data}/>
   <AboutSkills/>
+  <SmallWithSocial/>
   </>
   );
 }
