@@ -44,8 +44,4 @@
   <img src="https://streak-stats.demolab.com?user=igorpnh&locale=en&mode=weekly&theme=dracula&hide_border=false&border_radius=5&date_format=M%20j%5B,%20Y%5D&order=3" height="150" alt="streak graph"  />
 </div>
 
-###
 
-<img src="https://raw.githubusercontent.com/igorpnh/igorpnh/output/snake.svg" alt="Snake animation" />
-
-###
