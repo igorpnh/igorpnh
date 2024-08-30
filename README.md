@@ -6,6 +6,20 @@
 
 ###
 
+<div align="left">
+  <a href="https://www.linkedin.com/in/igor-pinheiro-4872491b6/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="32" height="20" alt="linkedin logo"  />
+  </a>
+  <a href="https://www.instagram.com/pinheiroigor1/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="32" height="20" alt="instagram logo"  />
+  </a>
+  <a href="mailto:igorpinheir1@gmail.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="32" height="20" alt="gmail logo"  />
+  </a>
+</div>
+
+###
+
 <h2 align="left">About me</h2>
 
 ###
@@ -43,5 +57,3 @@
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=igorpnh&locale=en&mode=weekly&theme=dracula&hide_border=false&border_radius=5&date_format=M%20j%5B,%20Y%5D&order=3" height="150" alt="streak graph"  />
 </div>
-
-
