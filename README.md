@@ -24,7 +24,7 @@
 
 ###
 
-<p align="left">✨ Creating bugs since 2021<br>📚 I'm currently learning NestJs and C#<br>☕ No coffe, no code</p>
+<p align="left">✨ Creating bugs since 2021<br>📚 I'm currently learning Sequelize and Node.js<br>☕ No coffe, no code</p>
 
 ###
 
