@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="262" viewBox="0 0 860 262" role="img" aria-label="igor pinheiro — backend &amp; fullstack developer">
+<style>
+text { font-family: 'JetBrains Mono','Fira Code','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace; font-size: 15px; white-space: pre; }
+.ln { opacity: 0; animation: show .01s linear forwards; }
+.cur { animation: blink 1s step-end infinite; }
+@keyframes show { to { opacity: 1; } }
+@keyframes blink { 50% { opacity: 0; } }
+</style>
+<defs><clipPath id="win"><rect width="860" height="262" rx="12"/></clipPath><clipPath id="c0"><rect x="0" y="54" height="26" width="163"><animate attributeName="width" from="163" to="860" begin="0.40s" dur="0.42s" fill="freeze"/></rect></clipPath><clipPath id="c1"><rect x="0" y="116" height="26" width="163"><animate attributeName="width" from="163" to="860" begin="1.52s" dur="0.91s" fill="freeze"/></rect></clipPath><clipPath id="c2"><rect x="0" y="178" height="26" width="163"><animate attributeName="width" from="163" to="860" begin="3.13s" dur="0.42s" fill="freeze"/></rect></clipPath></defs>
+<g clip-path="url(#win)">
+<rect width="860" height="262" fill="#2d353b"/>
+<rect width="860" height="34" fill="#343f44"/>
+<circle cx="22" cy="17" r="6" fill="#e67e80"/><circle cx="42" cy="17" r="6" fill="#dbbc7f"/><circle cx="62" cy="17" r="6" fill="#a7c080"/>
+<text x="430.0" y="22" text-anchor="middle" fill="#859289" style="font-size:12px">igor@bauru: ~ — fish</text>
+<g class="ln" style="animation-delay:0.10s" clip-path="url(#c0)"><text x="28" y="72"><tspan fill="#a7c080">igor</tspan><tspan fill="#859289">@</tspan><tspan fill="#83c092">bauru</tspan> <tspan fill="#7fbbb3">~</tspan> <tspan fill="#e69875">❯</tspan> <tspan fill="#d3c6aa">whoami</tspan></text></g><g class="ln" style="animation-delay:1.07s"><text x="28" y="98"><tspan fill="#dbbc7f" font-weight="700">igor pinheiro</tspan><tspan fill="#859289">  // backend &amp; fullstack developer</tspan></text></g><g class="ln" style="animation-delay:1.22s" clip-path="url(#c1)"><text x="28" y="134"><tspan fill="#a7c080">igor</tspan><tspan fill="#859289">@</tspan><tspan fill="#83c092">bauru</tspan> <tspan fill="#7fbbb3">~</tspan> <tspan fill="#e69875">❯</tspan> <tspan fill="#d3c6aa">cat stack.txt</tspan></text></g><g class="ln" style="animation-delay:2.68s"><text x="28" y="160"><tspan fill="#83c092">node.js · typescript · nestjs · postgresql · bullmq · docker</tspan></text></g><g class="ln" style="animation-delay:2.83s" clip-path="url(#c2)"><text x="28" y="196"><tspan fill="#a7c080">igor</tspan><tspan fill="#859289">@</tspan><tspan fill="#83c092">bauru</tspan> <tspan fill="#7fbbb3">~</tspan> <tspan fill="#e69875">❯</tspan> <tspan fill="#d3c6aa">uptime</tspan></text></g><g class="ln" style="animation-delay:3.80s"><text x="28" y="222"><tspan fill="#d3c6aa">3y shipping code</tspan><tspan fill="#859289"> · </tspan><tspan fill="#d3c6aa">4y+ in tech</tspan><tspan fill="#859289"> · </tspan><tspan fill="#d699b6">bauru, sp — br</tspan></text></g><g class="ln" style="animation-delay:3.95s"><text x="28" y="258"><tspan fill="#a7c080">igor</tspan><tspan fill="#859289">@</tspan><tspan fill="#83c092">bauru</tspan> <tspan fill="#7fbbb3">~</tspan> <tspan fill="#e69875">❯</tspan></text><rect class="cur" x="163" y="244" width="9" height="18" fill="#a7c080"/></g>
+</g>
+<rect x=".5" y=".5" width="859" height="261" rx="12" fill="none" stroke="#3d484d"/>
+</svg>

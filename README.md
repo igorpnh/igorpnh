@@ -1,24 +1,17 @@
 <!-- palette: everforest dark · bg #2d353b · fg #d3c6aa · green #a7c080 · aqua #83c092 · yellow #dbbc7f · orange #e69875 · red #e67e80 · purple #d699b6 · blue #7fbbb3 -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:2d353b,50:3d484d,100:a7c080&text=igor%20pinheiro&fontColor=d3c6aa&fontSize=52&fontAlignY=36&desc=backend%20%2F%20fullstack%20developer%20%E2%80%A2%20bauru,%20br&descAlignY=58&descSize=16" alt="igor pinheiro" />
+  <img src="assets/header.svg" width="100%" alt="igor pinheiro — backend & fullstack developer" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/igorpnh">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=3500&pause=900&color=A7C080&center=true&vCenter=true&width=520&lines=%E2%9C%BF+building+a+multi-tenant+whatsapp+crm;%E2%9C%BF+node.js+%C2%B7+typescript+%C2%B7+nestjs+%C2%B7+postgres;%E2%9C%BF+queues%2C+workers+%26+clean+code;%E2%9C%BF+fueled+by+coffee+and+tibia+since+2012" alt="typing" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/igor-pinheiro-4872491b6/"><img src="https://img.shields.io/badge/linkedin-2d353b?style=flat-square&logo=linkedin&logoColor=7fbbb3" alt="linkedin" /></a>
-  <a href="mailto:pinheiroigor@proton.me"><img src="https://img.shields.io/badge/pinheiroigor@proton.me-2d353b?style=flat-square&logo=protonmail&logoColor=d699b6" alt="email" /></a>
-  <img src="https://komarev.com/ghpvc/?username=igorpnh&label=visitors&color=a7c080&style=flat-square" alt="profile views" />
+  <a href="https://www.linkedin.com/in/igor-pinheiro-4872491b6/"><img src="assets/badges/linkedin.svg" alt="linkedin" /></a>
+  <a href="mailto:pinheiroigor@proton.me"><img src="assets/badges/email.svg" alt="pinheiroigor@proton.me" /></a>
 </p>
 
 <br />
 
-### ˚₊‧ ✿ about me
+<img src="assets/sections/about.svg" width="100%" alt="about me" />
 
 ```ts
 const igor = {
@@ -36,7 +29,7 @@ const igor = {
 
 <br />
 
-### ˚₊‧ 🌿 what i've been up to
+<img src="assets/sections/experience.svg" width="100%" alt="experience" />
 
 > **fullstack developer** · *lëëk tecnologia* · `mar 2026 → now`
 >
@@ -55,44 +48,44 @@ const igor = {
 
 <br />
 
-### ˚₊‧ 🍃 toolbox
+<img src="assets/sections/toolbox.svg" width="100%" alt="stack" />
 
 <p>
-  <img src="https://img.shields.io/badge/node.js-2d353b?style=for-the-badge&logo=nodedotjs&logoColor=a7c080" />
-  <img src="https://img.shields.io/badge/typescript-2d353b?style=for-the-badge&logo=typescript&logoColor=7fbbb3" />
-  <img src="https://img.shields.io/badge/nestjs-2d353b?style=for-the-badge&logo=nestjs&logoColor=e67e80" />
-  <img src="https://img.shields.io/badge/express-2d353b?style=for-the-badge&logo=express&logoColor=d3c6aa" />
-  <img src="https://img.shields.io/badge/java-2d353b?style=for-the-badge&logo=openjdk&logoColor=e69875" />
-  <img src="https://img.shields.io/badge/spring_boot-2d353b?style=for-the-badge&logo=springboot&logoColor=a7c080" />
+  <img src="assets/badges/nodejs.svg" alt="node.js" />
+  <img src="assets/badges/typescript.svg" alt="typescript" />
+  <img src="assets/badges/nestjs.svg" alt="nestjs" />
+  <img src="assets/badges/express.svg" alt="express" />
+  <img src="assets/badges/java.svg" alt="java" />
+  <img src="assets/badges/springboot.svg" alt="spring boot" />
 </p>
 <p>
-  <img src="https://img.shields.io/badge/postgresql-2d353b?style=for-the-badge&logo=postgresql&logoColor=7fbbb3" />
-  <img src="https://img.shields.io/badge/prisma-2d353b?style=for-the-badge&logo=prisma&logoColor=d3c6aa" />
-  <img src="https://img.shields.io/badge/redis-2d353b?style=for-the-badge&logo=redis&logoColor=e67e80" />
-  <img src="https://img.shields.io/badge/bullmq-2d353b?style=for-the-badge&logo=redis&logoColor=dbbc7f" />
-  <img src="https://img.shields.io/badge/rabbitmq-2d353b?style=for-the-badge&logo=rabbitmq&logoColor=e69875" />
+  <img src="assets/badges/postgresql.svg" alt="postgresql" />
+  <img src="assets/badges/prisma.svg" alt="prisma" />
+  <img src="assets/badges/redis.svg" alt="redis" />
+  <img src="assets/badges/bullmq.svg" alt="bullmq" />
+  <img src="assets/badges/rabbitmq.svg" alt="rabbitmq" />
 </p>
 <p>
-  <img src="https://img.shields.io/badge/react-2d353b?style=for-the-badge&logo=react&logoColor=83c092" />
-  <img src="https://img.shields.io/badge/next.js-2d353b?style=for-the-badge&logo=nextdotjs&logoColor=d3c6aa" />
-  <img src="https://img.shields.io/badge/tailwind-2d353b?style=for-the-badge&logo=tailwindcss&logoColor=83c092" />
+  <img src="assets/badges/react.svg" alt="react" />
+  <img src="assets/badges/nextjs.svg" alt="next.js" />
+  <img src="assets/badges/tailwind.svg" alt="tailwind" />
 </p>
 <p>
-  <img src="https://img.shields.io/badge/docker-2d353b?style=for-the-badge&logo=docker&logoColor=7fbbb3" />
-  <img src="https://img.shields.io/badge/linux-2d353b?style=for-the-badge&logo=linux&logoColor=dbbc7f" />
-  <img src="https://img.shields.io/badge/ubuntu_server-2d353b?style=for-the-badge&logo=ubuntu&logoColor=e69875" />
-  <img src="https://img.shields.io/badge/git-2d353b?style=for-the-badge&logo=git&logoColor=e67e80" />
-  <img src="https://img.shields.io/badge/bash-2d353b?style=for-the-badge&logo=gnubash&logoColor=a7c080" />
+  <img src="assets/badges/docker.svg" alt="docker" />
+  <img src="assets/badges/linux.svg" alt="linux" />
+  <img src="assets/badges/ubuntu.svg" alt="ubuntu server" />
+  <img src="assets/badges/git.svg" alt="git" />
+  <img src="assets/badges/bash.svg" alt="bash" />
 </p>
 
-<sub>🌱 currently learning: <b>java & spring boot</b></sub>
+<sub><code>// currently learning: java & spring boot</code></sub>
 
 <br /><br />
 
-### ˚₊‧ 🌲 stats
+<img src="assets/sections/stats.svg" width="100%" alt="activity" />
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=igorpnh&show_icons=true&hide_border=true&include_all_commits=true&bg_color=2d353b&title_color=a7c080&text_color=d3c6aa&icon_color=83c092&ring_color=a7c080&hide_rank=false" alt="github stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=igorpnh&show_icons=true&hide_border=true&include_all_commits=true&bg_color=2d353b&title_color=a7c080&text_color=d3c6aa&icon_color=83c092&ring_color=a7c080" alt="github stats" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=igorpnh&layout=compact&hide_border=true&langs_count=6&bg_color=2d353b&title_color=a7c080&text_color=d3c6aa" alt="top languages" />
 </p>
 
@@ -104,8 +97,6 @@ const igor = {
   <img src="https://raw.githubusercontent.com/igorpnh/igorpnh/output/snake-everforest.svg" alt="snake eating my contributions" />
 </p>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:a7c080,50:3d484d,100:2d353b" alt="" />
-</p>
+<br />
 
-<p align="center"><sub>⋆｡˚ ☕ made with coffee in bauru ˚｡⋆</sub></p>
+<img src="assets/sections/footer.svg" width="100%" alt="thanks for stopping by" />
