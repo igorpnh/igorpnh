@@ -82,19 +82,10 @@ const igor = {
 
 <br /><br />
 
-<img src="assets/sections/stats.svg" width="100%" alt="activity" />
+<img src="assets/sections/languages.svg" width="100%" alt="most used languages" />
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=igorpnh&show_icons=true&hide_border=true&include_all_commits=true&bg_color=2d353b&title_color=a7c080&text_color=d3c6aa&icon_color=83c092&ring_color=a7c080" alt="github stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=igorpnh&layout=compact&hide_border=true&langs_count=6&bg_color=2d353b&title_color=a7c080&text_color=d3c6aa" alt="top languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=igorpnh&hide_border=true&background=2D353B&ring=A7C080&fire=E69875&currStreakNum=D3C6AA&sideNums=D3C6AA&currStreakLabel=A7C080&sideLabels=83C092&dates=859289&stroke=3D484D" alt="streak" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/igorpnh/igorpnh/output/snake-everforest.svg" alt="snake eating my contributions" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=igorpnh&layout=compact&hide_border=true&hide_title=true&langs_count=8&card_width=500&bg_color=2d353b&text_color=d3c6aa" alt="most used languages" />
 </p>
 
 <br />
