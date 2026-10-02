@@ -23,7 +23,7 @@ const igor = {
   enjoys:     ["queues & async jobs", "code review", "root-cause hunting"],
   values:     "organized code that's easy to maintain",
   languages:  ["português (native)", "english (professional)"],
-  funFact:    "playing tibia since 2012 — still not level 200 🐉",
+  funFact:    "i'm a bit of a coffee snob ☕",
 };
 ```
 
