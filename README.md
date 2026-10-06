@@ -82,12 +82,4 @@ const igor = {
 
 <br /><br />
 
-<img src="assets/sections/languages.svg" width="100%" alt="most used languages" />
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=igorpnh&layout=compact&hide_border=true&hide_title=true&langs_count=8&card_width=500&bg_color=2d353b&text_color=d3c6aa" alt="most used languages" />
-</p>
-
-<br />
-
 <img src="assets/sections/footer.svg" width="100%" alt="thanks for stopping by" />
